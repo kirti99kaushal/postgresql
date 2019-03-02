@@ -49,7 +49,7 @@ class d_holiday(db.Model):
       
           }
 
-@app.route('/', methods = ['GET'])
+@app.route('/test', methods = ['GET'])
 def home():
    return render_template('home.html')
 
